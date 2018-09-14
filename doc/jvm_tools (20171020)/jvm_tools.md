@@ -158,7 +158,7 @@ Java虚拟机在执行Java程序的过程中会把它所管理的内存划分为
 
 3. Parallel Scavenge (参数: -XX:MaxGCPauseMillis -XX:GCTimeRatio) // 外加-XX:+UseAdaptiveSizePolicy, GC自适应的调节策略 (GC Ergonomics)
 
-    ![](GC_3_parallel-scavenge.png)
+    ![](GC_3_parallel-scavenge&parallel-old.png)
 
     复制算法; 多线程**并行**新生代回收; 吞吐量优先 (Stop The World)
     
